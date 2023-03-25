@@ -1,0 +1,61 @@
+.pikastore{
+    float: right;
+    width: 90%;
+    .section1{
+        position: relative;
+        z-index: 9865477;
+        padding: 75px 0;
+        
+    }
+    .section3{
+        padding: 75px 0;
+        position: relative;
+        z-index: 98657;
+        .image{
+            display:grid;
+            justify-content: center;
+            span{
+                        font-family: 'Poppins';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 60px;
+                            text-transform: capitalize;
+                            color: $second-color;
+                            padding: 10px 0;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                a{
+                    padding-left: 5px;
+                    color: $primary-color;
+                    text-decoration: underline;
+                }
+            }
+        }
+        .text{
+            h1{
+                @include s{
+                    font-size: 50px !important;
+                }
+            }
+        }
+    }
+    .next{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        a{
+            color: $color3;
+            display: flex;
+            align-items: center;
+            &:hover{
+                color: $primary-color;
+         
+
+            }
+        }
+    }
+    
+}

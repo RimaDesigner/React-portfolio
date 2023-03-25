@@ -1,0 +1,144 @@
+.services{
+    float: right;
+    width: 90%;
+    #tsparticles{
+        position: relative;
+        z-index: 26831;
+        canvas{
+            position: relative!important;
+            background: #fff;
+        }
+    }
+    .section1{
+        padding: 75px 0;
+        position: relative;
+        z-index: 965888;
+    
+            .text{
+                display: grid;
+                justify-content: center;
+                position: relative;
+                z-index: 96663;
+                h1{
+                    
+                }
+                span{
+                    font-family: "amaline";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 44px;
+                    line-height: 74px;
+                    text-align: justify;
+                    letter-spacing: -0.02em;
+                    color: $second-color;
+                    @include md{
+                        font-size: 37px!important;
+                        line-height: 45px!important;
+                    }
+                    @include xs {
+                        font-size: 30px!important;
+                       
+                    }
+                }
+            }
+            .cards{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                position: relative;
+                z-index: 69998574;
+                padding: 50px 0;
+                width: 100%;
+                justify-self: center;
+                grid-gap: 2rem;
+                @include s{
+                    grid-template-columns: 1fr!important;
+                    justify-items: center;
+                }
+                @include xs {
+                    justify-items: unset!important;
+                }
+                .card{
+                
+                    display:grid;
+                    align-items: center;
+                    width: 80%;
+                    justify-self: center;
+                    padding: 30px;
+                    background: $color5;
+                    box-shadow: 10px 10px 5px 0px rgba(184,174,174,0.22);
+                    transition: 0.5s;
+                    @include xs{
+                        padding: 10px!important;
+                        // width: 85;
+                    }
+                    @include s{
+                      
+                        // justify-self: unset!important;
+                    }
+                    &:hover{
+                        background:$white;
+                        transition: 0.5s;
+                        transform: scale(1.1);
+                    }
+                
+                    .avatar{
+                        width: 200px;
+                        height: 200px;
+                        display: flex;
+                        justify-content: center;
+                        justify-self: center;
+                        align-items: center;
+                    
+                        img{
+                            max-width: 100%;
+                            height: auto;
+                            // border-radius: 81%;
+                        }
+                        @include xs{
+                            width: 150px!important;
+                            height: 150px!important;
+                        }
+                    }
+                    .img2{
+                        width: 300px;
+                    }
+                    .media-body{
+                        display: grid;
+                        place-content: center;
+                        justify-items: center;
+                        p{
+                            display: flex;
+                            column-gap: 5px;
+                            align-items: center;
+                            font-family: 'poppins';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size:16px ;
+                            text-align: center;
+                            letter-spacing: -0.02em;
+                            color: $text-color;
+                        }
+                        h3{
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 24px;
+                            line-height: 60px;
+                            text-transform: capitalize;
+                            color: $second-color;
+                        }
+                    }
+                
+                }
+            }
+            a{
+                height: 200px;
+                align-content: center;
+            .btn{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+            }}
+        }
+}

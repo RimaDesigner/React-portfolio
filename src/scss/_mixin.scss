@@ -1,0 +1,48 @@
+@mixin xs { 
+    @media only screen and (max-width: 380px) { 
+      @content
+      ;
+    }
+  }
+// Small devices (landscape phones, less than 768px)
+
+@mixin s { 
+    @media  (max-width: 767.98px) { 
+          @content; 
+    }
+  }
+
+// Medium devices (tablets, less than 992px)
+@mixin md { 
+@media screen and  (max-width: 991.98px) { 
+  @content ;
+}
+}
+
+// Large devices (desktops, less than 1200px)
+@mixin lg { 
+@media screen and  (max-width: 1199.98px) { 
+  @content;
+}
+}
+/* (1280x1024) SXGA Display */
+
+@mixin  lgx {
+  @media screen and (min-width: 1025px) and (max-width: 1423px){
+   @content; 
+}
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin L {
+@media (max-width: 1399.98px) {
+
+  @content;
+
+}
+}
+
+@mixin xl{
+    @media screen and    (min-width:1440px) { 
+      @content;
+    }
+    }

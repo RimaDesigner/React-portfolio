@@ -1,0 +1,33 @@
+
+@import './outils'; 
+@import './mixin'; 
+@import './test'; 
+@import './header'; 
+@import './responsive'; 
+@import './about'; 
+@import './swiper';
+@import './contact'; 
+@import './footer'; 
+@import './main'; 
+@import './portfolio'; 
+@import './services'; 
+@import './packs'; 
+@import './portfD'; 
+body{
+
+    font-family: 'A.Casual.Handwritten.Pen';
+    // background: $color5;
+   
+
+            footer{
+                display: flex;
+                justify-content: center;
+                float: right;
+                position: relative;
+                z-index: 9999956;
+                width: 90%;
+                height: 100%;
+            }
+      
+        }
+

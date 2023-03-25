@@ -1,0 +1,396 @@
+@include lg {
+    header{
+        
+        .navmobile{
+            position: relative;
+            width: 0;
+            z-index: 012;
+            .nav__menu{
+                #logo{
+                    align-items: center;
+                    a{
+                        width: 17%;
+
+                    }
+                    .Rima{
+                        font-size: 35px;
+                    }
+                    span{
+                        font-size: 30px;
+                    }
+                }
+                .Nav-menu{
+
+                }
+                .icons{
+                    width: 25%;
+                    li{
+                        border-bottom: unset;
+                    }
+                }
+            }
+        }
+        .Nav {
+          display: none;
+        }
+        .nav__toggler {
+            display: block;
+            cursor: pointer;
+          }
+          .nav__menu {
+            position: fixed;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            background: $white;
+            flex-direction: column;
+            transform: translateX(100%);
+            transition: 0.5s ease-in;
+            overflow: hidden;
+            overflow-y: hidden;
+            justify-content: space-between!important;
+          }
+    }
+    .main-index , .Right-side , .services ,.packs, .Contactus , .portfolio ,.pikastore{
+        width: 100%!important;
+        .Section1{
+          
+            .background{
+                .image{
+                    width: 100%!important;
+                }
+            }
+           #tsparticles{
+            canvas{
+                background: linear-gradient(270deg, rgb(22, 12, 27) 78%, rgb(22, 12, 27) 100%)!important;
+            }
+           }
+        }
+        .section3{
+           .left{  
+                .Ptext{
+                    font-size: 36px!important;
+                }
+            }
+        }
+        .Section2 {
+            .right-text{
+            .text{
+                justify-self: center!important;
+                p{ font-size: 17px!important;
+                }
+            }
+            }
+        }
+        .section4{
+            .card-services{
+                .card{
+                    .text-hover{
+                        p{
+                            font-size: 16px!important;
+                        }
+                    }
+                }
+            }
+        }
+      
+    }
+    footer{
+        width: 100%!important;
+    }
+    
+ 
+         
+}
+@include xl {
+    .navmobile{
+        display: none;
+        .nav__menu{
+            display: none;
+        }
+        .nav__toggler{
+            display: none;
+        }
+    }
+
+}
+@include lgx{
+    .nav__menu{
+        display: none!important;
+    }
+    .nav__toggler{
+        display: none!important;
+    }
+}
+@include md{
+    h1{
+        font-size: 70px!important;
+    }
+    p{
+        font-size: 14px!important;
+    }
+    .info{
+        height: auto;
+        .contact-form{
+            flex-direction: column!important;
+            align-items: center;
+            width: 100%;
+            .form{
+                width: unset;
+                form{
+                    .button{
+                        justify-content: center;
+                    }
+                }
+            }
+            .image{
+                width: unset;
+            }
+        }
+    }
+    .btn{
+        width: 150px!important;
+        height: 50px!important;
+    }
+    .section5{
+        .Pastwork{
+            flex-direction: column-reverse;
+            width: 100%;
+            height: auto;
+            align-items: center;
+            .image{
+                width: 100%!important;
+            }
+            .text{
+                width: 100%!important;
+                place-items: center;
+            }
+        }
+    }
+    .morinfo{
+        flex-direction: column;
+        place-items: unset;
+        &::after{
+            height: 517px!important;
+        }
+        &::before{
+            width: 720px!important;
+            height: 255px!important;
+        }
+        .left{
+            width: unset!important;
+        }
+        .right{
+            width: unset!important;
+            .Pline{
+                font-size: 44px!important;
+            }
+        }
+    }
+    .Section2{
+        height: auto;
+        .Aboutme{
+            flex-direction: column-reverse!important;
+            .left-image{
+                width: unset!important;
+
+            }
+            .right-text{
+                width: unset!important; 
+                .Title{
+                    h1{
+                        line-height: 55px!important;
+                    
+                    }
+                }
+            }
+        }
+    }
+    .section4{
+        height: auto!important;
+        .card-services{
+            display: grid!important;
+            grid-gap: 1rem;
+            width: 100%;
+            justify-items: center;
+            grid-template-columns: 1fr 1fr;
+            .card{
+                width: 100%!important;
+                height: 80%!important;
+            }
+        }
+    }
+    .Section1{
+        .text{
+          
+                h1{
+                    font-size: 100px!important;
+                    line-height: 100px!important;
+                }
+                h3{
+                    font-size: 39px!important;
+                }
+                p{
+
+                }
+          
+        }
+    }
+    .howitwork{
+        .cards{
+            grid-template-columns: 1fr 1fr!important;
+            
+            .card{
+                width: 80%!important;
+            }
+        }
+    }
+    .Right-side{
+        .section2{
+            .MoreAboutMe{
+                .Aboutme{
+                        flex-direction: column-reverse;
+                        .left-text{
+                            width: 100%!important;
+                        }
+                        .right-image{
+                            width: 100%!important;
+                        }
+                }
+                
+            }
+        }
+    }
+    
+}
+@include s {
+    .Section1{
+        .text{
+            .welcome{
+                display: grid!important;
+                   
+                     h1{
+                    font-size: 58px!important;
+                    line-height: 100px!important;
+                }
+                h3{
+                    font-size: 20px!important;
+                }
+                
+            
+            }
+               
+                p{
+
+                }
+                .other {
+                    font-size: 29px!important;
+                }
+        
+        }
+    }
+    .card-services{
+        grid-template-columns: 1fr!important;
+    }
+    .inputF1{
+        display: grid!important;
+        justify-content: unset!important;
+        width: 100%;
+    input{
+        width: 100%!important;
+    }
+    }
+    .Ptext{
+        font-size: 34px!important;
+    }
+    .right{
+        .Pline{
+            font-size: 34px!important;
+        }
+    }
+    .Logo{
+        a{
+            width: 25%!important;
+        }
+    }
+    .howitwork{
+        .cards{
+            grid-template-columns: 1fr !important;
+            
+           
+        }
+    }
+    .info .contact-text{
+        width: 100%!important;
+        h3{
+            font-size: 33px!important;
+        }
+
+    }
+    .Pastwork{
+        gap: 2rem;
+        .text{
+            padding: unset!important;
+            height: auto!important;
+            div{
+                padding: 20px 0px!important;
+                h1{
+
+                }
+                span{
+                    font-size: 27px!important;
+                }
+            }
+        }
+    }
+    .Ptext{
+        padding: unset!important;
+    }
+    .right-text .Title p{
+        padding: 10px 0!important;
+    }
+    .other{
+        font-size: 29px!important;
+    }
+    .footer{
+        p{
+            font-size: 11px !important;
+        }
+    }
+    .nav__menu{
+        .icons{
+            width: 80%!important;
+            
+        }
+    }
+}
+@include xs{
+    .Section1{
+        
+            
+        
+        }
+    
+    .Pline{
+        font-size: 29px!important;
+    }
+    
+    .pfooter{
+        font-size: 11px !important;
+    }
+    .info .contact-text{
+        h3{
+            font-size: 24px!important;
+        }
+    }
+}
+@include lgx{
+    .navmobile{
+        display: none!important;
+        .icons{
+            display: none!important;
+        }
+    }
+    
+}

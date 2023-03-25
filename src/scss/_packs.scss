@@ -1,0 +1,86 @@
+.packs{
+    float: right;
+    width: 90%;
+    .section1{
+        width: 100%;
+        padding: 75px 0;
+
+        position: relative;
+        z-index: 965881;
+    }
+    .section2{
+        width: 100%;
+        padding: 75px 0;
+        position: relative;
+        z-index: 965881;
+        .Cards{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            height: auto;
+            grid-gap: 2rem;
+            width: 100%;
+            @include md{
+                grid-template-columns: 1fr 1fr!important;
+            }
+            @include s{
+                grid-template-columns: 1fr!important;
+            }
+            .card{
+                display: grid;
+                width: 100%;
+                
+                background: #faf6f7;
+                height: 440px;
+                justify-items: center;
+                place-items: center;
+                box-shadow: 10px 10px 5px 0px rgba(184,174,174,0.22);
+              
+                h3{
+                    color: $second-color;
+                    font-family: 'A.Casual.Handwritten.Pen';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 80px;
+                    line-height: 70px;
+                    text-align: center;
+                    display: flex;
+                    color: $primary-color;
+                    span{
+                        font-size: 50px;
+                        display: flex;
+                    }
+                }
+                h2{
+                    color: $primary-color;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 72px;
+                    text-align: center;
+                    text-transform: capitalize;
+                    color: $color3;
+                }
+                .text{
+                    display: grid;
+                    padding: 10px;
+                
+                p{
+                    color: $text-color;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    text-align: center;
+                    text-transform: capitalize;
+                    @include lg{
+                        font-size: 16px!important;
+                    }
+
+                                }                
+            }
+            }
+        }
+    }
+}

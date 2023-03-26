@@ -80,12 +80,12 @@ p {
 }
 
 .Pline {
-  font-family: "amaline";
+  font-family: "Amalia";
   font-style: normal;
   font-weight: 400;
-  font-size: 44px;
-  line-height: 74px;
-  text-align: justify;
+  font-size: 28px;
+  line-height: 50px;
+  text-align: start;
   letter-spacing: -0.02em;
   color: #ECE3F0;
 }
@@ -446,9 +446,6 @@ img {
   .morinfo .right {
     width: unset !important;
   }
-  .morinfo .right .Pline {
-    font-size: 44px !important;
-  }
   .Section2 {
     height: auto;
   }
@@ -513,7 +510,7 @@ img {
     font-size: 20px !important;
   }
   .Section1 .text .other {
-    font-size: 29px !important;
+    font-size: 18px !important;
   }
   .card-services {
     grid-template-columns: 1fr !important;
@@ -530,7 +527,7 @@ img {
     font-size: 34px !important;
   }
   .right .Pline {
-    font-size: 34px !important;
+    font-size: 20px !important;
   }
   .Logo a {
     width: 25% !important;
@@ -564,7 +561,7 @@ img {
     padding: 10px 0 !important;
   }
   .other {
-    font-size: 29px !important;
+    font-size: 18px !important;
   }
   .footer p {
     font-size: 11px !important;
@@ -575,7 +572,7 @@ img {
 }
 @media only screen and (max-width: 380px) {
   .Pline {
-    font-size: 29px !important;
+    font-size: 20px !important;
   }
   .pfooter {
     font-size: 11px !important;
@@ -705,7 +702,7 @@ img {
   color: #1E1E1E;
 }
 .aboutus .Right-side .section2 .Aboutme .left-text .text .Pline {
-  font-family: "amaline";
+  font-family: "Amalia";
   font-style: normal;
   font-weight: 400;
   font-size: 44px;
@@ -786,7 +783,7 @@ img {
   display: flex;
 }
 .aboutus .Right-side .section3 .brandValue .brands .brand .text p {
-  font-family: "amaline";
+  font-family: "Amalia";
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
@@ -859,7 +856,7 @@ img {
   -moz-column-gap: 5px;
        column-gap: 5px;
   align-items: center;
-  font-family: "amaline";
+  font-family: "Amalia";
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
@@ -1017,11 +1014,11 @@ img {
   align-items: center;
 }
 .section5 .Pastwork .text span {
-  font-family: "amaline";
+  font-family: "Amalia";
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
-  line-height: 110px;
+  line-height: 50px;
   text-align: justify;
   text-transform: capitalize;
   color: #1E1E1E;
@@ -1254,11 +1251,11 @@ img {
   line-height: 85px;
 }
 .Contactus .section1 h3 {
-  font-family: "amaline";
+  font-family: "Amalia";
   font-style: normal;
   font-weight: 600;
-  font-size: 44px;
-  line-height: 74px;
+  font-size: 28px;
+  line-height: 50px;
   text-align: center;
   letter-spacing: -0.02em;
   color: #493751;
@@ -1315,12 +1312,12 @@ img {
   padding: 75px 0;
 }
 .main-index .howitwork .cards .card .text span {
-  font-family: "amaline";
+  font-family: "Amalia";
   font-style: normal;
   font-weight: 400;
-  font-size: 60px;
-  line-height: 74px;
-  text-align: justify;
+  font-size: 28px;
+  line-height: 50px;
+  text-align: start;
   letter-spacing: -0.02em;
   color: #1E1E1E;
 }
@@ -1451,12 +1448,12 @@ img {
   right: auto;
 }
 .main-index .Section1 .other {
-  font-family: "amaline";
+  font-family: "Amalia";
   font-style: normal;
   font-weight: 400;
-  font-size: 39px;
-  line-height: 74px;
-  text-align: justify;
+  font-size: 26px;
+  line-height: 50px;
+  text-align: start;
   letter-spacing: -0.02em;
   color: #ECE3F0;
   position: relative;
@@ -1600,22 +1597,12 @@ img {
   color: #FFF;
 }
 .main-index .section3 .morinfo .right .Pline {
-  font-family: "amaline";
+  font-family: "Amalia";
   font-style: normal;
   font-weight: 400;
-  font-size: 44px;
-  line-height: 74px;
-  text-align: justify;
-  letter-spacing: -0.02em;
-  color: #ECE3F0;
-}
-.main-index .section3 .morinfo .right .Pline {
-  font-family: "amaline";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 44px;
-  line-height: 74px;
-  text-align: justify;
+  font-size: 25px;
+  line-height: 50px;
+  text-align: start;
   letter-spacing: -0.02em;
   color: #ECE3F0;
 }
@@ -1773,12 +1760,12 @@ img {
   line-height: 75px;
 }
 .main-index .info .contact-text h3 {
-  font-family: "amaline";
+  font-family: "Amalia";
   font-style: normal;
   font-weight: 400;
-  font-size: 39px;
-  line-height: 74px;
-  text-align: justify;
+  font-size: 28px;
+  line-height: 50px;
+  text-align: start;
   letter-spacing: -0.02em;
   color: #ECE3F0;
 }
@@ -1930,12 +1917,12 @@ footer .pfooter b {
   line-height: 75px;
 }
 .portfolio .info2 .contact-text h3 {
-  font-family: "amaline";
+  font-family: "Amalia";
   font-style: normal;
   font-weight: 400;
-  font-size: 39px;
-  line-height: 74px;
-  text-align: justify;
+  font-size: 28px;
+  line-height: 50px;
+  text-align: start;
   letter-spacing: -0.02em;
   color: #BDAFD2;
 }
@@ -1981,7 +1968,7 @@ footer .pfooter b {
   z-index: 96663;
 }
 .services .section1 .text span {
-  font-family: "amaline";
+  font-family: "Amalia";
   font-style: normal;
   font-weight: 400;
   font-size: 44px;

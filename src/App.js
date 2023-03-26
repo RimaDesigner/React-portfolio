@@ -24,9 +24,9 @@ useEffect(() => {
   )
  : (
 
-    <div>
+    <div basename="/React-portfolio">
   
-      {/* <Loaderr /> */}
+    
             <Navbar />
   
          <LandingPage />

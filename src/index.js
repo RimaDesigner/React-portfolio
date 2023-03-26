@@ -21,7 +21,7 @@ import {
 const router = createBrowserRouter([
   {
     
-    path: "/rimadesigner.com",
+    path: "/",
     element: <App />,
   },
   {

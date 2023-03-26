@@ -21,7 +21,7 @@ import {
 const router = createBrowserRouter([
   {
     
-    path: "/React-portfolio",
+    path: "/",
     element: <App />,
   },
   {

@@ -19,9 +19,7 @@
                         font-size: 30px;
                     }
                 }
-                .Nav-menu{
-
-                }
+              
                 .icons{
                     width: 25%;
                     li{
@@ -183,9 +181,7 @@
         }
         .right{
             width: unset!important;
-            .Pline{
-                
-            }
+         
         }
     }
     .Section2{
@@ -231,9 +227,7 @@
                 h3{
                     font-size: 39px!important;
                 }
-                p{
-
-                }
+           
           
         }
     }
@@ -281,9 +275,7 @@
             
             }
                
-                p{
-
-                }
+              
                 .other {
                     font-size: 18px!important;
                 }
@@ -324,7 +316,7 @@
     .info .contact-text{
         width: 100%!important;
         h3{
-            font-size: 33px!important;
+            font-size: 20px!important;
         }
 
     }
@@ -335,9 +327,7 @@
             height: auto!important;
             div{
                 padding: 20px 0px!important;
-                h1{
-
-                }
+             
                 span{
                     font-size: 27px!important;
                 }
@@ -366,11 +356,7 @@
     }
 }
 @include xs{
-    .Section1{
-        
-            
-        
-        }
+   
     
     .Pline{
         font-size: 20px!important;

@@ -539,7 +539,7 @@ img {
     width: 100% !important;
   }
   .info .contact-text h3 {
-    font-size: 33px !important;
+    font-size: 20px !important;
   }
   .Pastwork {
     gap: 2rem;
@@ -786,7 +786,7 @@ img {
   font-family: "Amalia";
   font-style: normal;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 24px;
   line-height: 74px;
   text-align: justify;
   letter-spacing: -0.02em;
@@ -794,12 +794,12 @@ img {
 }
 @media screen and (max-width: 991.98px) {
   .aboutus .Right-side .section3 .brandValue .brands .brand .text p {
-    font-size: 26px !important;
+    font-size: 20px !important;
   }
 }
 @media (max-width: 767.98px) {
   .aboutus .Right-side .section3 .brandValue .brands .brand .text p {
-    font-size: 22px !important;
+    font-size: 18px !important;
   }
 }
 .aboutus .Right-side .sectionB {
@@ -859,7 +859,7 @@ img {
   font-family: "Amalia";
   font-style: normal;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 28px;
   line-height: 74px;
   text-align: justify;
   letter-spacing: -0.02em;
@@ -867,12 +867,17 @@ img {
 }
 @media screen and (max-width: 1199.98px) {
   .aboutus .Right-side .sectionB .skills .knowme .text span {
-    font-size: 29px !important;
+    font-size: 24px !important;
   }
 }
 @media screen and (max-width: 991.98px) {
   .aboutus .Right-side .sectionB .skills .knowme .text span {
-    font-size: 25px !important;
+    font-size: 18px !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .aboutus .Right-side .sectionB .skills .knowme .text span {
+    font-size: 13px !important;
   }
 }
 .aboutus .Right-side .sectionB .content {

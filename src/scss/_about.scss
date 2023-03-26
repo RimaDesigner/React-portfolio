@@ -208,17 +208,17 @@
                                 font-family: 'Amalia';
                                 font-style: normal;
                                 font-weight: 400;
-                                font-size:35px ;
+                                font-size:24px ;
                                 line-height: 74px;
 
                                 text-align: justify;
                                 letter-spacing: -0.02em;
                                 color: $text-color;
                                 @include md{
-                                    font-size: 26px !important;
+                                    font-size: 20px !important;
                                 }
                                 @include s{
-                                    font-size: 22px !important;
+                                    font-size: 18px !important;
                                 }
                             }
                         }
@@ -278,22 +278,23 @@
                             font-family: 'Amalia';
                             font-style: normal;
                             font-weight: 400;
-                            font-size:35px ;
+                            font-size:28px ;
                             line-height: 74px;
 
                             text-align: justify;
                             letter-spacing: -0.02em;
                             color: $text-color;
                             @include lg{
-                                font-size: 29px!important;
+                                font-size: 24px!important;
                             }
                             @include md{
-                                font-size: 25px!important;
+                                font-size: 18px!important;
+                            }
+                            @include s{
+                                font-size: 13px!important;
                             }
                             
-                            .icon{
-
-                            }
+                        
                         }
                     }
                 }

@@ -20,7 +20,8 @@ import {
 } from "react-router-dom";
 const router = createBrowserRouter([
   {
-    path: "/",
+    
+    path: "/React-portfolio",
     element: <App />,
   },
   {

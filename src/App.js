@@ -23,19 +23,19 @@ useEffect(() => {
     <Loader />
   )
  : (
-
-    <div basename="/React-portfolio">
-  
-    
-            <Navbar />
-  
-         <LandingPage />
-       
-        <footer>
-          <p className="pfooter"> © 2023 All Rights Reserved Created By <b>Rima Designer</b> </p>
-        </footer>
       
-     </div>
+          <div >
+        
+          
+                  <Navbar />
+        
+              <LandingPage />
+            
+              <footer>
+                <p className="pfooter"> © 2023 All Rights Reserved Created By <b>Rima Designer</b> </p>
+              </footer>
+            
+          </div>
       
 
  

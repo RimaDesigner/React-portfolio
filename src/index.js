@@ -21,7 +21,7 @@ import {
 const router = createBrowserRouter([
   {
     
-    path: "/React-portfolio",
+    path: "/",
     element: <App />,
   },
   {
@@ -75,6 +75,8 @@ root.render(
     < RouterProvider router={router}/>
   </React.StrictMode>
   </Suspense>
+
+  
 );
 
 

@@ -10,7 +10,7 @@
         padding: 75px 0;
         position: relative;
         .text{
-
+            padding: 40px 0;
         }
         .cards{
             display: grid;
@@ -282,7 +282,7 @@
                     display: grid;
                     width: 80%;
                     justify-self: flex-end;
-                    p{
+                    p{ padding: 35px 0;
                         font-family: 'Poppins';
                         font-style: normal;
                         font-weight: 400;
@@ -631,6 +631,7 @@
             .pfooter{
                 color:white;
                 // font-size: 16;
+                font-size: 18px;
                 b{
                     color: #D3BBDD;
                 }

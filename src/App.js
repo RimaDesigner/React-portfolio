@@ -6,11 +6,12 @@ import Loader from "./loader";
 import 'swiper/css';
 // import Footer1 from "./components/footer";
 import LandingPage from "./components/main";
+import useDisableRightClick from "./components/click"; 
 
 
 
 function App() {
-
+useDisableRightClick();
 const [loader, setLoader] = useState(true);
 useEffect(() => {
  
@@ -20,6 +21,7 @@ useEffect(() => {
 },[])
   return loader ? 
   (
+   
     <Loader />
   )
  : (

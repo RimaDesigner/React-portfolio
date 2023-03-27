@@ -180,14 +180,11 @@
                     z-index: 983232;
                     @include s{
                         display: grid!important;
-                        grid-template-columns: 1fr 1fr;
-                        // justify-items: center;
-                        align-items: center;
-                    }
-                    @include xs{
                         grid-template-columns: 1fr!important;
                         justify-self: center;
+                        align-items: center;
                     }
+                   
                     .brand{
                         display: grid;
                         width: 30%;

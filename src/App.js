@@ -4,21 +4,14 @@ import React, {useState , useEffect} from 'react'
 import Navbar from "./components/Header";
 import Loader from "./loader"; 
 import 'swiper/css';
-// import Footer1 from "./components/footer";
+
 import LandingPage from "./components/main";
-import useDisableRightClick from "./components/click"; 
-<<<<<<< HEAD
-
-
-function App() {
-  useDisableRightClick();
-=======
 
 
 
 function App() {
-useDisableRightClick();
->>>>>>> fb05df53ed8046dfb0130053a2b98f8b8e8b78d1
+
+
 const [loader, setLoader] = useState(true);
 useEffect(() => {
  

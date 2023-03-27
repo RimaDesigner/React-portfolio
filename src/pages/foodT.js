@@ -23,7 +23,7 @@ function FoodT() {
       <Loader />
     )
    :(
-    <div>
+    <div > 
         <Navbar>  </Navbar>
         <main className='pikastore'>        
           <Animation />

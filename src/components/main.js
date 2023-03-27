@@ -48,20 +48,7 @@ export default function LandingPage () {
                                                                 <h1> {t('title2')}  </h1>
                                                                 <div class="welcome"> <h1> {t('title1')}</h1> <h3>{t('title3')} </h3> </div>
                                                                 <p> {t('title4')} </p>
-                                                    {/* <Typewriter
-                                                                onInit={(typewriter) => {
-                                                                    typewriter
-                                                                    .pauseFor(2500)
-                                                                    .typeString('<h1> {t('title2')}  </h1>')
-                                                                    .typeString('<div class="welcome"> <h1> {t('title1')}</h1> <h3>{t('title3')} </h3> </div> ' )
-                                                                    .typeString('<p> BUILD YOUR BRAND - CREATE YOUR WEBSITE - TELL YOUR STORY </p>' )
-                                                                    .pauseFor(1000)
-                                                                    .start();
-
-                                                                }} /> */}
-                                                                
-                                                                {/* <img src="" alt="background" />  */}
-                                                               {/* <h1>{t('title1')}</h1> */}
+                                                
                                                     </div>  
                                                     <h3 className="other">
                                                             Your business baby deserves an experience 
@@ -81,7 +68,7 @@ export default function LandingPage () {
                             <Container>
                                 <div className="Aboutme">
                                                 <div className="left-image">
-                                                    <img src={img3} alt="" /> 
+                                                    <img src={img3} alt="imgg" /> 
                                                 </div>
                                                 <div className="right-text">
                                                             <div className="Title">

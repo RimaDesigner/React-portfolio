@@ -11,9 +11,11 @@
 * {
   margin: 0;
   padding: 0;
+  user-select: none;
+  -webkit-touch-callout: none;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 .loading {
@@ -43,6 +45,10 @@ h1 {
   line-height: 75px;
   text-align: center;
   color: #F8C0C8;
+}
+
+img {
+  pointer-events: none;
 }
 
 h3 {
@@ -86,7 +92,7 @@ p {
   font-family: "Amalia";
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 50px;
   text-align: start;
   letter-spacing: -0.02em;
@@ -530,7 +536,7 @@ img {
     font-size: 34px !important;
   }
   .right .Pline {
-    font-size: 20px !important;
+    font-size: 14px !important;
   }
   .Logo a {
     width: 25% !important;
@@ -572,11 +578,11 @@ img {
   .nav__menu .icons {
     width: 80% !important;
   }
+  .Pline {
+    font-size: 14px !important;
+  }
 }
 @media only screen and (max-width: 380px) {
-  .Pline {
-    font-size: 20px !important;
-  }
   .pfooter {
     font-size: 11px !important;
   }

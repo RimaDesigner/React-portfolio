@@ -23,7 +23,7 @@ function Yalla() {
       <Loader />
     )
    :(
-    <div>
+    <div >
         <Navbar>  </Navbar>
         <main className='pikastore'>        
           <Animation />

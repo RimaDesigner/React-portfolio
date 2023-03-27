@@ -31,7 +31,7 @@ function Services() {
    :
   
   (
-    <div>
+    <div >
         <Navbar>   </Navbar>
       <main className='services'>
         <Animation />

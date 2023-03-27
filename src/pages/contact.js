@@ -39,7 +39,7 @@ useEffect(() => {
   )
  :
   (
-    <div>
+    <div >
         <Navbar></Navbar>
         <main className="Contactus" >
         <Animation />

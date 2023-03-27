@@ -39,7 +39,7 @@ useEffect(() => {
  :
   
   (
-    <div className="aboutus">
+    <div className="aboutus" >
         <Navbar></Navbar>
         <main className='Right-side'>
         <Animation />

@@ -21,7 +21,7 @@ function Packs() {
    :
   
   (
-    <div>
+    <div >
         <Navbar>  </Navbar>
         <main className='packs'>        
           <Animation />

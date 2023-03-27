@@ -45,7 +45,7 @@ function Myportfolio() {
       <Loader />
     )
    :(
-    <div>
+    <div >
         <Navbar>  </Navbar>
         <main className='portfolio'>        
           <Animation />

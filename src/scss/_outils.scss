@@ -17,6 +17,7 @@ $white : #FFF  ;
     *{
         margin:0; 
         padding: 0;
+        user-select: none;
     }
    .loading{
         text-align: center;
